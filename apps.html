@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diogo Vanderlan - Página Inicial</title>
+	<meta charset="utf-8">
+	<!-- width=device-width, initial-scale=1, shrink-to-fit=no-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	
+
+	<link rel="shortcut icon" type="text/css" href="imagens/icone.png">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+		<div class="container">
+			<a href="index.html" title="Página Inicial" class="navbar-brand">
+				<img src="imagens/logo.png" alt="vanderlan">
+			</a>
+
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				 <ul class="navbar-nav ml-auto">
+				 	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+				 	<li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+				 	<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >Desenvolvimento</a>
+				 		<div class="dropdown-menu">
+				 			<a href="web.html" class="dropdown-item">Paginas</a>
+				 			<a href="apps.html" class="dropdown-item" >Aplicativos</a>
+				 		</div>
+				 	</li>
+				 	<a href="#" class="nav-link" data-toggle="modal" data-target="#modal">Contato</a>
+				 	
+				 </ul>
+			</div><!-- collapse -->
+		</div><!-- container -->
+	</nav>
+		<main>
+			<div class="container">
+				<h1 class="text-center ">Programaçao</h1>
+				<div class="row">
+					<div class="col wow fadeInLeft">
+						<img src="imagens/informatica.jpg" alt="sobre iOS" title="sobre iOS" class="img-thumbnail w-100">
+					</div>
+					<div class="col wow fadeInRight">
+						<p><h2>Sobre iOS</h2>
+						<h3>Áreas • Swifit</h3>
+
+						iOS é um sistema operacional móvel da Apple Inc. desenvolvido originalmente para o iPhone, iPod Touch e o iPad até a introdução do iPadOS em 2019, um sistema derivado do iOS. A Apple não permite que o iOS seja executado em hardware de terceiros. As versões principais do iOS são lançadas anualmente.
+						</p>
+						<button type="submit" class="btn btn-primary">
+							<a href="https://github.com/diogovanderlan/SWIFT"></a>
+							Git
+						</button>
+					</div><!-- col-->
+				</div><!-- row-->
+				<br>
+				<div class="row">
+					<div class="col wow fadeInLeft">
+						<img src="imagens/informatica2.jpg" alt="Sobre Android" title="Sobre Android" class="img-thumbnail w-100">
+					</div>
+					<div class="col wow fadeInRight">
+						<p><h2>Sobre Android</h2>
+							<h3>Áreas • Android </h3>
+
+							Android é um sistema operacional baseado no núcleo Linux, desenvolvido por um consórcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o Google.</p>
+							<button type="submit" class="btn btn-primary" href="https://github.com/diogovanderlan/Calculadora-IML">
+							Git 
+						</button>
+					</div><!-- col-->
+				</div><!-- row-->
+			</div><!--container-->
+			<br>
+		</main>
+		
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+<br>
+	<footer class="bg-dark float-left w-100">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center wow fadeInLeft">
+					<i class="fas fa-map-marker-alt"></i>
+					<p>Av Brasil 1680, Alto Piquiri - PR</p>
+				</div>
+				<div class="col text-center wow fadeIn">
+					<i class="fas fa-mobile-alt"></i>
+					<p>(44) 98839-4805</p>
+				</div>
+				<div class="col text-center wow fadeInRight">
+					<i class="fas fa-envelope">
+					</i>
+					<p>diogo.vanderlan@gmail.com</p>
+				</div>
+			</div><!--row-->
+			<hr>
+			<p class="float-left"> 2022 - todos os direitros reservados</p>
+			<p class="float-right">
+				<a href="https://www.facebook.com/diogovanderlan">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://twitter.com/Diogo_vanderlan">
+					<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://www.instagram.com/diogovanderlan/">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</p>
+		</div><!--container-->
+
+	</footer>
+	<form action="https://formspree.io/diogo.vanderlan@gmail.com"
+      method="POST"> 
+ 
+
+		<div class="modal fade" id="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2>Entre em Contato</h2>
+					</div><!-- header-->
+					<div class="modal-body">
+
+						<input type="text" name="name"  class="form-control"  required placeholder="Digite seu nome">
+
+					    <input type="email" name="_replyto"  class="form-control" required placeholder="Digite seu email">
+					   
+
+					    <textarea name="mensagem" class="form-control" required placeholder="Digite sua mensagem" rows="5">
+					    	
+					    </textarea>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Fechar
+						</button>
+						<button type="submit" class="btn btn-success">
+							Enviar
+						</button>
+					</div><!--foooter-->
+				</div><!--contener-->
+				
+			</div>
+		</div>
+
+</form>
+
+
+</body>
+</html>

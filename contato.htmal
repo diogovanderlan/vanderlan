@@ -1,0 +1,35 @@
+<form action="https://formspree.io/diogo.vanderlan@gmail.com"
+      method="POST"> 
+ 
+
+		<div class="modal fade" id="modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h2>Entre em Comtato</h2>
+					</div><!-- header-->
+					<div class="modal-body">
+
+						<input type="text" name="name"  class="form-control"  required placeholder="Digite seu nome">
+
+					    <input type="email" name="_replyto"  class="form-control" required placeholder="Digite seu email">
+					   
+
+					    <textarea name="mensagem" class="form-control" required placeholder="Digite sua mensagem" rows="5">
+					    	
+					    </textarea>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">
+							Fechar
+						</button>
+						<button type="submit" class="btn btn-success">
+							Enviar
+						</button>
+					</div><!--foooter-->
+				</div><!--contener-->
+				
+			</div>
+		</div>
+
+	</form>
